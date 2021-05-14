@@ -1,0 +1,69 @@
+h1, h3 {
+    text-align:center;
+}
+
+.info {
+    max-width:400px;
+    padding:10px;
+    background-color: #ececec;
+    text-align: justify;
+    border:1px solid #b4b4b4;
+    margin: 0 auto 30px auto;
+    border-radius: 5px;
+}
+
+div.holder {
+    margin:auto;
+    width:900px
+}
+
+div.requests {
+    float:left;
+    width:250px;
+    border:1px solid #000;
+    height:620px;
+    overflow: auto;
+}
+
+div.requests div {
+    font-size:12px;
+    height:50px;
+    text-align: center;
+    border-bottom:1px solid #000;
+    background-color: #dbffe8;
+    cursor: pointer;
+    padding-top:15px;
+}
+
+div.requests div:nth-child(even) {
+    background-color: #e5fdfd;
+}
+
+div.requests div:hover {
+    background-color: #f5d2fc;
+}
+
+.sessionbutton {
+    display: block;
+    margin:auto;
+    background-color: #639031;
+    color:#FFF;
+    height:30px;
+    width:200px;
+    line-height: 30px;
+    text-align:center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+div.content {
+    float:left;
+    margin-left:25px;
+    width:600px;
+    border:1px solid #000;
+    height:600px;
+    padding:10px;
+    overflow:auto;
+    font-size:12px;
+}
